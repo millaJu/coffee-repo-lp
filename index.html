@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="banner">
+          <div class="coffee-icon"></div>
+        </div>
+        <h1>O sabor que aquece a sua rotina.</h1>
+        <div class="circle-wrapper">
+          <img
+            src="./assets/img/coffe-circle-wrapper.jpg"
+            alt="Imagem exemplar de grãos de café"
+          />
+
+          <svg
+            class="circle-text"
+            width="500"
+            height="500"
+            viewBox="0 0 500 500"
+          >
+            <defs>
+              <path
+                id="circlePath"
+                d="M 250, 250 m -200, 0 a 200,200 0 1,1 400,0 a 200,200 0 1,1 -400,0"
+              />
+            </defs>
+            <text font-size="30" fill="#ffc16f">
+              <textPath href="#circlePath">
+                Café especial feito com grãos selecionados, para começar bem o
+                seu dia.
+              </textPath>
+            </text>
+          </svg>
+        </div>
+        <button>Conheça nosso cardápio!</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="our-coffees" id="our-coffees">
+        <h2>Nossos Cafés</h2>
+        <div class="coffees-container">
+          <article class="coffee-card">
+            <h3>Expresso Clássico</h3>
+            <img src="./assets/img/classic-coffee.jpg" alt="Café Expresso" />
+            <p>R$ 5,00</p>
+            <p class="description">Grãos 100% arábica, torra média.</p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Capuccino Cremoso</h3>
+            <img src="./assets/img/capuccino.jpg" alt="Capuccino Cremoso" />
+            <p>R$ 9,90</p>
+            <p class="description">
+              Espresso encorpado, leite vaporizado e espuma cremosa.
+            </p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Mocha Especial</h3>
+            <img src="./assets/img/mocha-coffe.jpg" alt="Mocha Especial" />
+            <p>R$ 12,00</p>
+            <p class="description">
+              Espresso, chocolate meio amargo e leite vaporizado, finalizado com
+              chantilly.
+            </p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Café<br />Gelado</h3>
+            <img src="./assets/img/iced-coffee.jpg" alt="Café Gelado" />
+            <p>R$ 5,00</p>
+            <p class="description">
+              Café especial servido sobre pedras de gelo.
+            </p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Expresso Clássico</h3>
+            <img src="./assets/img/classic-coffee.jpg" alt="Café Expresso" />
+            <p>R$ 5,00</p>
+            <p class="description">Grãos 100% arábica, torra média.</p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Capuccino Cremoso</h3>
+            <img src="./assets/img/capuccino.jpg" alt="Capuccino Cremoso" />
+            <p>R$ 9,90</p>
+            <p class="description">
+              Espresso encorpado, leite vaporizado e espuma cremosa.
+            </p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Mocha Especial</h3>
+            <img src="./assets/img/mocha-coffe.jpg" alt="Mocha Especial" />
+            <p>R$ 12,00</p>
+            <p class="description">
+              Espresso, chocolate meio amargo e leite vaporizado, finalizado com
+              chantilly.
+            </p>
+          </article>
+
+          <article class="coffee-card">
+            <h3>Café<br />Gelado</h3>
+            <img src="./assets/img/iced-coffee.jpg" alt="Café Gelado" />
+            <p>R$ 5,00</p>
+            <p class="description">
+              Café especial servido sobre pedras de gelo.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="visit-us">
+        <p>Venha viver essa experiência.</p>
+        <button>Visite-nos</button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-info">
+        <!-- Card único -->
+        <div class="footer-card">
+
+          <div class="footer-texts">
+
+            <section class="footer-about">
+              <h2>Horário de Funcionamento</h2>
+              <p>Segunda a Sexta: 7h - 19h</p>
+              <p>Sábado: 8h - 14h</p>
+            </section>
+
+            <section class="footer-about">
+              <h2>Contato</h2>
+              <p>Telefone: (12) 91234-5678</p>
+              <p>
+                E-mail:
+                <a href="mailto:cafeespecial@gmail.com"
+                  >cafeespecial@gmail.com</a
+                >
+              </p>
+            </section>
+
+            <section class="footer-about">
+              <h2>Endereço</h2>
+              <p>Jardim Nova Europa, Campinas - SP, 13040-055</p>
+            </section>
+
+            <nav class="footer-about" aria-label="Redes sociais">
+              <h2>Links</h2>
+
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Whatsapp</a></li>
+                <li><a href="#">Google Maps</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Google Maps dentro do card -->
+          <figure class="footer-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.3475220819996!2d-47.05524179999999!3d-22.937425100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cecd99d3e709%3A0x2af006b7fa4260a3!2sR.%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20Jardim%20Nova%20Europa%2C%20Campinas%20-%20SP%2C%2013040-055!5e0!3m2!1spt-PT!2sbr!4v1758280406771!5m2!1spt-PT!2sbr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <figcaption>Localização da Cafeteria</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <section class="footer-link">
+        <p>Acesse <a href="#">pedidoaqui.com</a> e garanta o seu pedido!</p>
+      </section>
+    </footer>
+  </body>
+</html>
