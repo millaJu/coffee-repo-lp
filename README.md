@@ -19,7 +19,7 @@ Landing page de uma **cafeteria artesanal**, feita para mostrar:
 ## 🖼️ Visualização
 
 ### 🌐 Página Completa
-![Landing Page](assets/img/screenshots/all-page-coffee.png)
+![Landing Page](assets/screenshots/all-page-coffee.png)
 
 ### 🎥 Animação Circle-Wrapper
 ![Coffee Circle-Wrapper](assets/gifs/circle-wrapper.gif)
